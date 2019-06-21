@@ -10,3 +10,15 @@
 //      losses ++
 //      "you lost, play agian"
 //reset all random #'s and score 
+
+
+
+var crystal = $(".crystal");
+
+crystal.each(function () {
+    var random = Math.floor(Math.random() * 12) + 1;
+    console.log(random);
+    $(this).attr({
+        "data-random": random
+    });
+});

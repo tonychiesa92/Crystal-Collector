@@ -60,7 +60,7 @@ p {
     margin-top: 10px;
     margin-left: 20px;
   }
-  .wrapper-img{
+  /* .wrapper-img{
 
   }
   .box-img{
@@ -68,4 +68,43 @@ p {
     height: 100px;
     width: 100px;
 
-  }
+  } */
+
+  button {
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+  #c1 {
+    background-image: url('../images/c1.jpg');
+    background-size: 100px 100px;
+    height: 104px;  
+    width: 104px;
+}
+
+#c2 {
+  background-image: url('../images/c2.png');
+  background-size: 100px 100px;
+  height: 104px;  
+  width: 104px;
+}
+
+#c3 {
+  background-image: url('../images/c3.jpg');
+  background-size: 100px 100px;
+  height: 104px;  
+  width: 104px;
+}
+
+#c4 {
+  background-image: url('../images/c4.png');
+  background-size: 100px 100px;
+  height: 104px;  
+  width: 104px;
+}
